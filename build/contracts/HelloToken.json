@@ -25,24 +25,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50610163806100206000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063011afdd71461005157806319ff1d21146100e1575b600080fd5b34801561005d57600080fd5b506100666100f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f6610135565b005b60606040805190810160405280600581526020017f68656c6c6f000000000000000000000000000000000000000000000000000000815250905090565b5600a165627a7a72305820f41647281af0fa84fe23ccce0f25d0d51ec50dca6567a8f08961fb72972144340029",
-  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063011afdd71461005157806319ff1d21146100e1575b600080fd5b34801561005d57600080fd5b506100666100f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f6610135565b005b60606040805190810160405280600581526020017f68656c6c6f000000000000000000000000000000000000000000000000000000815250905090565b5600a165627a7a72305820f41647281af0fa84fe23ccce0f25d0d51ec50dca6567a8f08961fb72972144340029",
-  "sourceMap": "26:146:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:146:0;;;;;;;",
-  "deployedSourceMap": "26:146:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;94:76;;8:9:-1;5:2;;;30:1;27;20:12;5:2;94:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;94:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;52:36;;8:9:-1;5:2;;;30:1;27;20:12;5:2;52:36:0;;;;;;94:76;132:6;149:14;;;;;;;;;;;;;;;;;;;;94:76;:::o;52:36::-;:::o",
+  "bytecode": "0x608060405234801561001057600080fd5b50610163806100206000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063011afdd71461005157806319ff1d21146100e1575b600080fd5b34801561005d57600080fd5b506100666100f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f6610135565b005b60606040805190810160405280600581526020017f68656c6c6f000000000000000000000000000000000000000000000000000000815250905090565b5600a165627a7a72305820c8ca251107890581d655f47d64a85c19854f4f94d08437a25457f3f68cc616c20029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063011afdd71461005157806319ff1d21146100e1575b600080fd5b34801561005d57600080fd5b506100666100f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f6610135565b005b60606040805190810160405280600581526020017f68656c6c6f000000000000000000000000000000000000000000000000000000815250905090565b5600a165627a7a72305820c8ca251107890581d655f47d64a85c19854f4f94d08437a25457f3f68cc616c20029",
+  "sourceMap": "26:146:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:146:1;;;;;;;",
+  "deployedSourceMap": "26:146:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;94:76;;8:9:-1;5:2;;;30:1;27;20:12;5:2;94:76:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;94:76:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;52:36;;8:9:-1;5:2;;;30:1;27;20:12;5:2;52:36:1;;;;;;94:76;132:6;149:14;;;;;;;;;;;;;;;;;;;;94:76;:::o;52:36::-;:::o",
   "source": "pragma solidity ^0.4.24;\n\ncontract HelloToken {\n    function hello() public pure{\n\n    }\n\n    function hello2() public view returns(string){\n        return \"hello\";\n    }\n}\n",
-  "sourcePath": "/Users/kyeongrok/git/eth/truffle_01/contracts/HelloToken.sol",
+  "sourcePath": "/Users/kyeongrok/git/eth/truffle_hello/contracts/HelloToken.sol",
   "ast": {
-    "absolutePath": "/Users/kyeongrok/git/eth/truffle_01/contracts/HelloToken.sol",
+    "absolutePath": "/Users/kyeongrok/git/eth/truffle_hello/contracts/HelloToken.sol",
     "exportedSymbols": {
       "HelloToken": [
-        14
+        38
       ]
     },
-    "id": 15,
+    "id": 39,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 25,
         "literals": [
           "solidity",
           "^",
@@ -50,7 +50,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -58,22 +58,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 14,
+        "id": 38,
         "linearizedBaseContracts": [
-          14
+          38
         ],
         "name": "HelloToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 4,
+              "id": 28,
               "nodeType": "Block",
-              "src": "80:8:0",
+              "src": "80:8:1",
               "statements": []
             },
             "documentation": null,
-            "id": 5,
+            "id": 29,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -81,42 +81,42 @@
             "name": "hello",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2,
+              "id": 26,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "66:2:0"
+              "src": "66:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3,
+              "id": 27,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "80:0:0"
+              "src": "80:0:1"
             },
-            "scope": 14,
-            "src": "52:36:0",
+            "scope": 38,
+            "src": "52:36:1",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12,
+              "id": 36,
               "nodeType": "Block",
-              "src": "139:31:0",
+              "src": "139:31:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "68656c6c6f",
-                    "id": 10,
+                    "id": 34,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "string",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "156:7:0",
+                    "src": "156:7:1",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_stringliteral_1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8",
@@ -124,15 +124,15 @@
                     },
                     "value": "hello"
                   },
-                  "functionReturnParameters": 9,
-                  "id": 11,
+                  "functionReturnParameters": 33,
+                  "id": 35,
                   "nodeType": "Return",
-                  "src": "149:14:0"
+                  "src": "149:14:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 13,
+            "id": 37,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -140,23 +140,23 @@
             "name": "hello2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6,
+              "id": 30,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "109:2:0"
+              "src": "109:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 9,
+              "id": 33,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8,
+                  "id": 32,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 13,
-                  "src": "132:6:0",
+                  "scope": 37,
+                  "src": "132:6:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -164,10 +164,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 7,
+                    "id": 31,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "132:6:0",
+                    "src": "132:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -177,33 +177,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "131:8:0"
+              "src": "131:8:1"
             },
-            "scope": 14,
-            "src": "94:76:0",
+            "scope": 38,
+            "src": "94:76:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 15,
-        "src": "26:146:0"
+        "scope": 39,
+        "src": "26:146:1"
       }
     ],
-    "src": "0:173:0"
+    "src": "0:173:1"
   },
   "legacyAST": {
-    "absolutePath": "/Users/kyeongrok/git/eth/truffle_01/contracts/HelloToken.sol",
+    "absolutePath": "/Users/kyeongrok/git/eth/truffle_hello/contracts/HelloToken.sol",
     "exportedSymbols": {
       "HelloToken": [
-        14
+        38
       ]
     },
-    "id": 15,
+    "id": 39,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 25,
         "literals": [
           "solidity",
           "^",
@@ -211,7 +211,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -219,22 +219,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 14,
+        "id": 38,
         "linearizedBaseContracts": [
-          14
+          38
         ],
         "name": "HelloToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 4,
+              "id": 28,
               "nodeType": "Block",
-              "src": "80:8:0",
+              "src": "80:8:1",
               "statements": []
             },
             "documentation": null,
-            "id": 5,
+            "id": 29,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -242,42 +242,42 @@
             "name": "hello",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2,
+              "id": 26,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "66:2:0"
+              "src": "66:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 3,
+              "id": 27,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "80:0:0"
+              "src": "80:0:1"
             },
-            "scope": 14,
-            "src": "52:36:0",
+            "scope": 38,
+            "src": "52:36:1",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12,
+              "id": 36,
               "nodeType": "Block",
-              "src": "139:31:0",
+              "src": "139:31:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "68656c6c6f",
-                    "id": 10,
+                    "id": 34,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "string",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "156:7:0",
+                    "src": "156:7:1",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_stringliteral_1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8",
@@ -285,15 +285,15 @@
                     },
                     "value": "hello"
                   },
-                  "functionReturnParameters": 9,
-                  "id": 11,
+                  "functionReturnParameters": 33,
+                  "id": 35,
                   "nodeType": "Return",
-                  "src": "149:14:0"
+                  "src": "149:14:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 13,
+            "id": 37,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -301,23 +301,23 @@
             "name": "hello2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6,
+              "id": 30,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "109:2:0"
+              "src": "109:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 9,
+              "id": 33,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8,
+                  "id": 32,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 13,
-                  "src": "132:6:0",
+                  "scope": 37,
+                  "src": "132:6:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -325,10 +325,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 7,
+                    "id": 31,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "132:6:0",
+                    "src": "132:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -338,33 +338,39 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "131:8:0"
+              "src": "131:8:1"
             },
-            "scope": 14,
-            "src": "94:76:0",
+            "scope": 38,
+            "src": "94:76:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 15,
-        "src": "26:146:0"
+        "scope": 39,
+        "src": "26:146:1"
       }
     ],
-    "src": "0:173:0"
+    "src": "0:173:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
   "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0xfb88de099e13c3ed21f80a7a1e49f8caecf10df6",
+      "transactionHash": "0x303abd956a69c9cdb6d761d08347e750563d14e88bfe176a2c1de7ee3931aefe"
+    },
     "5777": {
       "events": {},
       "links": {},
       "address": "0xc8905a06bb2b73d99278f62b52f3b1bf3ba5cae3",
-      "transactionHash": "0x7df9022faaf254d59be2fba02a3386639643c9e0227ec94475775f4290899bb8"
+      "transactionHash": "0x1d56f6508834fa7b1547fa27fbd167346ea43336bdf6f715869c5ed388fb25e3"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-07-09T18:28:08.594Z"
+  "updatedAt": "2018-07-29T16:45:54.764Z"
 }

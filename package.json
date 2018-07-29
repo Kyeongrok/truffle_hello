@@ -1,0 +1,22 @@
+{
+  "name": "-",
+  "version": "1.0.0",
+  "description": "트러플(truffle)로 개발환경 구축하고 배포하고 test하고 hello출력하기",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test ./test/greeter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyeongrok/truffle_hello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyeongrok/truffle_hello/issues"
+  },
+  "homepage": "https://github.com/Kyeongrok/truffle_hello#readme"
+}
